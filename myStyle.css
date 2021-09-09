@@ -2,13 +2,17 @@ h1{
 	color:#d505f5;
 	background-color:#14eefa;
 	text-align:center;
+	font-family: "MV Boli", cursive;
+	font-size: 3em;
 }
 h2{
 	color:#c48b15;
 	text-align:left;
+	font-size: 1.75em;
 }
 h5{
 	color:#58b2df;
+	font-weight: lighter;
 }	
 a{
 	color:#fab93f;
@@ -16,6 +20,12 @@ a{
 body{
 	background-color:#4b3c40;
 	color:#f95d4d;
+	font-family: "SimSun", monospace;
+	font-size: 1.25em;
+}
+p{
+	text-indent: 1.75em;
+	line-height: 1.1;
 }
 strong{
 	color:#8442ad;
