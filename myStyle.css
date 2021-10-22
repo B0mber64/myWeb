@@ -19,7 +19,7 @@ a{
 }
 body{
 	background-color:#4b3c40;
-	color:#f04037;
+	color:#fc160e;
 	font-family: "SimSun", monospace;
 	font-size: 1.25em;
 }
@@ -31,5 +31,37 @@ strong{
 	color:#3ab4f9;
 }	
 em{
-	color:#ff0a23;
+	color:#a5ced6;
+}
+nav{
+	background-color:#a69b95;
+	line-height: 2em;
+	display: block;
+}
+nav ul{
+    display: flex;
+	text-align:center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    flex: 1 0 auto; 
+    list-style-type: none;
+	text-decoration:none;
+}
+
+nav a:link{
+	color:#cb4528;
+	text-decoration:none;
+}
+nav a:visited{
+	color:#cb4528;
+	text-decoration:none;
+}
+nav a:hover{
+	text-decoration:underlined;
+}
+nav a:active{
+	text-decoration:underlined;
 }
