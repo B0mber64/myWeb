@@ -4,6 +4,7 @@ h1{
 	text-align:center;
 	font-family: "MV Boli", cursive;
 	font-size: 3em;
+	margin: 40px -20px 40px -20px;
 }
 h2{
 	color:#c48b15;
@@ -18,10 +19,13 @@ a{
 	color:#fab93f;
 }
 body{
+	background-image: url(Images/brick.jpg);
+	background-attachment: fixed;
 	background-color:#4b3c40;
 	color:#fc160e;
 	font-family: "SimSun", monospace;
 	font-size: 1.25em;
+	margin: 0px 20px 40px 20px;
 }
 p{
 	text-indent: 1.75em;
@@ -37,6 +41,7 @@ nav{
 	background-color:#a69b95;
 	line-height: 2em;
 	display: block;
+	margin: 0px -20px 40px -20px;
 }
 nav ul{
     display: flex;
@@ -48,20 +53,24 @@ nav ul{
 nav li{
     flex: 1 0 auto; 
     list-style-type: none;
-	text-decoration:none;
 }
 
 nav a:link{
 	color:#cb4528;
 	text-decoration:none;
+	border: outset thick #cb4528;
+	padding: 2px 6px 2px 6px;
+	
 }
 nav a:visited{
 	color:#cb4528;
-	text-decoration:none;
 }
 nav a:hover{
 	text-decoration:underlined;
 }
 nav a:active{
 	text-decoration:underlined;
+}
+.isaac{
+	margin-top: -20px;
 }
