@@ -66,10 +66,10 @@ nav a:visited{
 	color:#cb4528;
 }
 nav a:hover{
-	text-decoration:underlined;
+	text-decoration:underline;
 }
 nav a:active{
-	text-decoration:underlined;
+	text-decoration:underline;
 }
 .isaac{
 	margin-top: -20px;
